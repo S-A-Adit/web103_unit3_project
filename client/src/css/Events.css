@@ -1,0 +1,32 @@
+.all-events {
+    padding: 30px;
+    width: 100%;
+}
+
+.all-events h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.all-events-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-with-venue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-venue-label {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
