@@ -43,8 +43,7 @@ const LocationEvents = ({index}) => {
                             id={event.id}
                             title={event.title}
                             date={event.date}
-                            time={event.time}
-                            image={event.image}
+                            description={event.description}
                         />
                     ) : <h2><i className="fa-regular fa-calendar-xmark fa-shake"></i> {'No events scheduled at this location yet!'}</h2>
                 }
