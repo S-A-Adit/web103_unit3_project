@@ -4,4 +4,11 @@ const getAllEvents = async () => {
   return data
 }
 
-export { getAllEvents }
+const getEventsByLocationId = async (locationId) => {
+  const data = await getAllEvents()
+  return data.filter(event => event.location_id === locationId)
+}
+
+const EventsAPI = { getAllEvents, getEventsByLocationId }
+
+export default EventsAPI
