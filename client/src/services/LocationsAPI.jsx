@@ -6,7 +6,7 @@ const getAllLocations = async () => {
 
 const getLocationById = async (id) => {
   const data = await getAllLocations()
-  return data.find(loc => loc.id === id)
+  return data.find(loc => loc.id == id)
 }
 
 const LocationsAPI = { getAllLocations, getLocationById }

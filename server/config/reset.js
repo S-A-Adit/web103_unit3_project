@@ -33,9 +33,10 @@ const resetDatabase = async () => {
     // Seed locations
     await pool.query(`
       INSERT INTO locations (name, address, city, state, zip) VALUES
-        ('Unity Community Center', '123 Main St', 'Springfield', 'IL', '62701'),
-        ('Grid Park Pavilion', '456 Oak Ave', 'Springfield', 'IL', '62702'),
-        ('Plaza Arts Hall', '789 Elm Blvd', 'Springfield', 'IL', '62703');
+        ('Echo Lounge', '551 Flat Shoals Ave SE', 'Atlanta', 'GA', '30316'),
+        ('House of Blues', '329 N Dearborn St', 'Chicago', 'IL', '60654'),
+        ('Pavilion', '1 Amphitheater Pkwy', 'Mountain View', 'CA', '94043'),
+        ('American Airlines Center', '2500 Victory Ave', 'Dallas', 'TX', '75219');
     `);
 
     // Seed events

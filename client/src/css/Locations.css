@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 
-svg {
+.available-locations svg {
     position: absolute;
     top: 0;
     left: 0;
@@ -13,12 +13,12 @@ svg {
     height: 100%;
 }
 
-svg polygon {
+.available-locations svg polygon {
     fill: transparent;
     cursor: pointer;
 }
 
-svg polygon:hover {
+.available-locations svg polygon:hover {
     fill: rgba(55, 216, 232, 0.2);
 }
 
@@ -28,6 +28,7 @@ svg polygon:hover {
     position: absolute;
     top: 50%;
     left: 3%;
+    pointer-events: none;
 }
 
 .venue2-button-overlay {
@@ -36,6 +37,7 @@ svg polygon:hover {
     position: absolute;
     top: 32%;
     left: 43%;
+    pointer-events: none;
 }
 
 .venue3-button-overlay {
@@ -44,6 +46,7 @@ svg polygon:hover {
     position: absolute;
     top: 32%;
     left: 78%;
+    pointer-events: none;
 }
 
 .venue4-button-overlay {
@@ -52,6 +55,7 @@ svg polygon:hover {
     position: absolute;
     top: 60%;
     left: 62%;
+    pointer-events: none;
 }
 
 .venue1-button-overlay button,
