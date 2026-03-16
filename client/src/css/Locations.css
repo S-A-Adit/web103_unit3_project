@@ -26,8 +26,9 @@
     opacity: 1;
     z-index: 10;
     position: absolute;
-    top: 50%;
-    left: 3%;
+    top: 46%;
+    left: 11%;
+    transform: translateX(-50%);
     pointer-events: none;
 }
 
@@ -35,8 +36,9 @@
     opacity: 1;
     z-index: 10;
     position: absolute;
-    top: 32%;
-    left: 43%;
+    top: 28%;
+    left: 48%;
+    transform: translateX(-50%);
     pointer-events: none;
 }
 
@@ -44,8 +46,9 @@
     opacity: 1;
     z-index: 10;
     position: absolute;
-    top: 32%;
-    left: 78%;
+    top: 28%;
+    left: 88%;
+    transform: translateX(-50%);
     pointer-events: none;
 }
 
@@ -53,8 +56,9 @@
     opacity: 1;
     z-index: 10;
     position: absolute;
-    top: 60%;
-    left: 62%;
+    top: 56%;
+    left: 71%;
+    transform: translateX(-50%);
     pointer-events: none;
 }
 
@@ -62,9 +66,9 @@
 .venue2-button-overlay button,
 .venue3-button-overlay button,
 .venue4-button-overlay button {
-    width: 180px;
     text-transform: uppercase;
     font-weight: 700;
     white-space: nowrap;
     pointer-events: none;
+    width: auto;
 }
